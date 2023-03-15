@@ -115,10 +115,10 @@ class ReviewResource(resources.ModelResource):
         fields = ('id', 'text', 'pub_date', 'title_id', 'author', 'score')
 
 
-@admin.register(Review)
-class CommentAdmin(ImportExportModelAdmin):
-    resource_classes = (ReviewResource,)
-    list_display = ('text', 'pub_date', 'title_id', 'author', 'score')
+# @admin.register(Review)
+# class CommentAdmin(ImportExportModelAdmin):
+#     resource_classes = (ReviewResource,)
+#     list_display = ('text', 'pub_date', 'title_id', 'author', 'score')
 
 
 admin.site.register(User, UserAdmin)
