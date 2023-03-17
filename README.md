@@ -45,7 +45,7 @@ DB_PORT=<порт_для_подключения_к_БД>
 
 Клонировать репозиторий и перейти в командной строке в папку с инфраструктурой:
 ```
-git clone https://github.com/StrekozJulia/infra_sp2.git
+git clone https://github.com/DandyBoo/infra_sp2.git
 cd api_yamdb/infra
 ```
 
